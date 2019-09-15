@@ -1,90 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap&subset=latin-ext');
- *{
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap&subset=latin-ext");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   user-select: none;
 }
-body,html{
+body,
+html {
   height: 100%;
 }
-body{
-  background: #FCE779;
-  color: #F76167;
-  font: 14px/1.4 'Source Sans Pro', sans-serif;
+body {
+  background: #fce779;
+  color: #f76167;
+  font: 14px/1.4 "Source Sans Pro", sans-serif;
 }
-a{
+a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
 }
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
 }
-.content--center{
+.content--center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .main {
   flex: 1 0 auto;
 }
-.pomodoro__app{
+.pomodoro__app {
   border-radius: 10px;
-  border: 5px solid #F76167;
+  border: 5px solid #f76167;
 }
-.pomodoro__section{
+.pomodoro__section {
   padding: 10px;
-  border-bottom: 5px solid #F76167;
+  border-bottom: 5px solid #f76167;
 }
-.pomodoro__section:last-child{
+.pomodoro__section:last-child {
   border: none;
 }
-.pomodoro__timer h1{
+.pomodoro__timer h1 {
   font-size: 2.5rem;
   padding: 10px 0 0 0;
 }
-.pomodoro__state h1{
-  border-bottom: 5px solid #F76167;
+.pomodoro__state h1 {
+  border-bottom: 5px solid #f76167;
   border-radius: 5px;
 }
-.pomodoro__body{
+.pomodoro__body {
   flex-flow: column wrap;
 }
-.pomodoro__duration__item span{
+.pomodoro__duration__item span {
   display: inline-block;
   width: 30px;
   text-align: center;
 }
-.pomodoro__duration__item p{
+.pomodoro__duration__item p {
   font-size: 1.4rem;
   font-weight: 500;
 }
-.pomodoro__option{
+.pomodoro__option {
   padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.pomodoro__option__item{
+.pomodoro__option__item {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
   padding: 5px 10px;
-  margin: 0 10px;
-  border: 5px solid #FCE779;
+  margin: 0 5px;
+  border: 5px solid #fce779;
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.pomodoro__option__item:hover{
-  border: 5px solid #F76167;
+.pomodoro__option__item:hover {
+  border: 5px solid #f76167;
 }
-.change-time__item{
+.change-time__item {
   cursor: pointer;
   font-size: 1.5rem;
   width: 20px;
@@ -92,29 +96,29 @@ h1,h2,h3,h4{
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
-  background: #F76167;
-  color: #FCE779;
-  transition: .3s;
+  background: #f76167;
+  color: #fce779;
+  transition: 0.3s;
 }
-.change-time__item:hover{
-  background: #FCE779;
-  color: #F76167;
+.change-time__item:hover {
+  background: #fce779;
+  color: #f76167;
 }
 .footer {
   flex: 0 0 auto;
 }
-.footer h2{
+.footer h2 {
   font-weight: 700;
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background: #F76167;
-  color: #FCE779;
-  transition: .3s;
+  background: #f76167;
+  color: #fce779;
+  transition: 0.3s;
 }
-.footer h2:hover{
-  background: #FCE779;
-  color: #F76167;
+.footer h2:hover {
+  background: #fce779;
+  color: #f76167;
   box-shadow: none;
 }
